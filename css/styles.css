@@ -1,0 +1,121 @@
+h1{
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color:#bbbbbb;
+}
+li{
+    list-style: none;
+}
+aside{
+    color:#bbbbbb;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+body{
+background-color: #616161;
+    /*   */
+    color:#ffff;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+  position: absolute;
+  left: 0;
+  top: 20%;
+  padding:30px;
+}
+
+.banner h2 {
+    font-size: 34px;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
+}
+
+header {
+    text-align: center;
+    background-color: #252525;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+} 
+header h1{
+    display: inline-block;
+    color: white;
+    padding:6px 12px;
+    border:8px solid whitesmoke;
+    border-radius:36px;
+} 
+nav{
+    padding:20px;
+    position: sticky;
+    background-color: #f4f4f4;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin:0 auto;
+}
+nav li{
+    display: inline-block;
+    font-size: 24px;
+    width: 10%;
+    padding:10px;
+}
+
+nav li :hover{
+    border-radius:106px;
+    border:8px solid crimson;
+    background-color: black;
+    color:#f4f4f4;
+}
+
+article h2{
+    font-size: 48px;
+}
+
+article p{
+    line-height: 2em;
+}
+
+.images{
+    text-align: center;
+    margin:80px 0;
+    white-space: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin:20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+
+.blog-list ul{
+    border-left: 8px dashed crimson;
+}
+
+.blog-list ul:hover{
+  border-left: 8px dashed green;
+}
+
+footer p{
+    margin-bottom: 0;
+    text-align: center;
+}
+
