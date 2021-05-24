@@ -62,7 +62,7 @@ header h1{
 nav{
     padding:20px;
     position: sticky;
-    background-color: #f4f4f4;
+    background-color: #616161;
 }
 nav ul{
     white-space: nowrap;
@@ -78,9 +78,9 @@ nav li{
 
 nav li :hover{
     border-radius:106px;
-    border:8px solid crimson;
-    background-color: black;
-    color:#f4f4f4;
+    border:2px solid cornsilk;
+    background-color: #fff;
+    color:#252525;
 }
 
 article h2{
@@ -117,5 +117,69 @@ article p{
 footer p{
     margin-bottom: 0;
     text-align: center;
+    padding: 20px;
 }
 
+/* responsive styles */
+@media screen and (max-width:1400px){ 
+    .banner{
+        position: relative;
+    }
+    
+    .banner img{
+        max-width: 100%;
+    }
+    
+    .banner .welcome{
+      position: absolute;
+      left: 0;
+      top: 20%;
+      padding:30px;
+    }
+    
+    .banner h2 {
+        font-size: 34px;
+    }
+    
+    .banner h2 span{
+        font-size: 1.3em;
+    }    
+}
+
+@media screen and (max-width:960px) {
+    nav li{
+        display: inline-block;
+        font-size: 24px;
+        width: 15%;
+        padding:10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+   .images li{
+       width: 100%;
+       margin: 20px auto;
+       display: block;
+   }
+}
+
+
+@media screen and (max-width:560px) {
+    .banner img{
+        max-width: 100%;
+    }
+
+    nav li{
+        font-size: 20px;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+    header{
+        position: relative;
+    }
+
+    nav{
+        top:0;
+    }
+ }
